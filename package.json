@@ -1,0 +1,21 @@
+{
+  "name": "adactinautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:e2e": "npx playwright test TC01_EndToEnd",
+    "test:positive": "npx playwright test TC02 TC03 TC04 TC05 TC06",
+    "test:negative": "npx playwright test TC07 TC08 TC09 TC10 TC11",
+    "test:report": "npx playwright show-report",
+    "test:debug": "npx playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
